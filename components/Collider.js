@@ -6,9 +6,9 @@ AFRAME.registerComponent("flying-birds", {
       var id = `hurdle${i}`;
 
       //position variables
-      var posX = Math.floor(Math.random() * 3000 + (-1000));      
-      var posY = Math.floor(Math.random() * 2 + (-1));
-      var posZ = Math.floor(Math.random() * 3000 + -1000);
+      var posX = Math.random() * 3000 + (-1000);      
+      var posY = Math.random() * 2 + (-1);
+      var posZ = Math.random() * 3000 + (-1000);
 
       var position = { x: posX, y: posY, z: posZ }
 
